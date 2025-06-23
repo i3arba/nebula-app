@@ -1,6 +1,6 @@
 "use client"
 
-import { ConnectButton, RainbowKitProvider } from "@rainbow-me/rainbowkit";
+import { RainbowKitProvider } from "@rainbow-me/rainbowkit";
 import { type ReactNode, useState } from "react";
 import { WagmiProvider } from "wagmi";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -14,7 +14,6 @@ export function Providers(props: { children: ReactNode }) {
         <WagmiProvider config={config}>
             <QueryClientProvider client={queryClient}>
                 <RainbowKitProvider>
-                    <ConnectButton/>
                     {props.children}
                 </RainbowKitProvider>
             </QueryClientProvider>
