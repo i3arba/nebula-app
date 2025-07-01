@@ -16,7 +16,7 @@ export default function Header() {
                     {/* The logo at this point, will be represented by the name */}
                     {/* To create it, we need a h1 TAG */}
                 {/* [Styling] Now, we need to adjust the text and size of it */}
-                <h1 className="text-2xl font-bold text-gray-800">Nebula</h1>
+                <h1 className="text-2xl font-bold text-gray-800">Supernova</h1>
 
                 {/* [LOGIC]  To create a link, we use the `a` TAG */}
                 {/* [Styling] Finally, we will adjust the GitHub button */}
